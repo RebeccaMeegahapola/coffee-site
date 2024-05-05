@@ -1,0 +1,129 @@
+.menu-image {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: contain;
+    position: relative;
+    margin: 0px;
+  }
+
+  .menu-heading{
+    color: rgb(193 136 49);
+    margin-bottom: 20px;
+    font-size: 50px;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 8%;
+}
+
+.coffeeList {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    width: 80%;
+    margin: 50px auto;
+    list-style-type: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.coffeeList a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.featured-items {
+    margin: 20px auto;
+    width: 80%;
+}
+
+.f-cardSet {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.f-Items {
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+.featuredCard {
+    background-color: white;
+    width: 90%;
+    height: 140px;
+    padding: 15px;
+    border: 1px solid #d3d3d3;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+.f-Card { 
+    display: grid;
+    grid-template-columns: 1fr minmax(auto, 20%);
+    gap: 10px;
+}
+
+.fItem {
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.fDesc {
+    line-height: 1.3;
+    letter-spacing: 0em;
+    font-size: 16px;
+    font-family: Karla;
+    font-weight: 400;
+    color: rgb(77, 77, 77);
+}
+
+.f-Image {
+    width: 100%;
+    height: 100%;
+}
+
+.load-btn {
+    text-align: center;
+    margin: 30px auto;
+}
+
+.loadBtn {
+    background-color: rgb(193 136 49);
+    width: 100px;
+    height: 40px;
+    color: white;
+    border: 1px solid rgb(193 136 49);
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.show {
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.hide {
+    display: none;
+}
+
+.coffeeBtn {
+    background-color: #ce6d0e;
+    width: 90px;
+    height: 35px;
+    color: white;
+    border-radius: 15px;
+    border: 1px solid #ce6d0e;
+}
+
+
+

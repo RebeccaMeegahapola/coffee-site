@@ -1,0 +1,23 @@
+.footer {
+    background-color: #6d3623;
+    height: 250px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 20px;
+    margin: 0px auto;
+}
+
+.footer-logo {
+    width: 30%;
+    cursor: pointer;
+}
+
+.footerHeader {
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+}
+
+.footer div {
+    color: #d69764;
+}
