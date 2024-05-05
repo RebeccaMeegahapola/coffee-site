@@ -18,7 +18,7 @@ function Service() {
           </p>
         </div>
         <div className='serviceCard'>
-          <p className='card1Heading'>Opening Hours</p>
+          <p className='card1Heading'>Cafe Opening Hours</p>
           <div className='hours'>
             <div>
               <p>Monday 8.00 - 22.00</p>
